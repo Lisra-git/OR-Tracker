@@ -1,0 +1,5573 @@
+{
+  "UsbVidMap": [
+    {
+      "Vendor": "Intel",
+      "VID": "8086"
+    },
+    {
+      "Vendor": "ASMedia",
+      "VID": "1B21"
+    },
+    {
+      "Vendor": "VIA Labs",
+      "VID": "1106"
+    },
+    {
+      "Vendor": "Renesas",
+      "VID": "1912",
+      "Comment": "May also be NEC in some cases"
+    },
+    {
+      "Vendor": "NEC",
+      "VID": "1033",
+      "Comment": "May also be Renesas in some cases"
+    },
+    {
+      "Vendor": "ETron",
+      "VID": "1B6F"
+    },
+    {
+      "Vendor": "Fresco Logic",
+      "VID": "1B73"
+    },
+    {
+      "Vendor": "Texas Instruments",
+      "VID": "104C"
+    },
+    {
+      "Vendor": "AMD",
+      "VID": "1022"
+    }
+  ],
+  "UsbWhiteList": [
+    {
+      "Vendor": "Intel",
+      "PID": "8D31",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "Intel",
+      "MinDriver": "4.0.4.51",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "8C31",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "Intel",
+      "MinDriver": "4.0.4.51",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "8CB1",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "Intel",
+      "MinDriver": "4.0.4.51",
+      "Comment": "Falcon Northwest Talon Tiki"
+    },
+    {
+      "Vendor": "ASMedia",
+      "PID": "1142",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "ASMedia",
+      "MinDriver": "1.16.33.1",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "Fresco Logic",
+      "PID": "1100",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "Fresco",
+      "MinDriver": "3.5.106.0",
+      "Comment": "Plug-in card"
+    },
+    {
+      "Vendor": "AMD",
+      "PID": "7812",
+      "OS": "WIN_7_SP1",
+      "DriverProvider": "Advanced Micro Devices",
+      "MinDriver": "1.1.0.153",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "8D31",
+      "OS": "WIN_8_1",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "6.3.9600.17393",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "ASMedia",
+      "PID": "1142",
+      "OS": "WIN_8_1",
+      "DriverProvider": "ASMedia",
+      "MinDriver": "1.16.33.1",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "Fresco Logic",
+      "PID": "1100",
+      "OS": "WIN_8_1",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "6.3.9600.17797",
+      "Comment": "Plug-in card"
+    },
+    {
+      "Vendor": "AMD",
+      "PID": "7812",
+      "OS": "WIN_8_1",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "6.3.9600.17393",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "1E31",
+      "OS": "WIN_8_1",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "6.3.9600.17393",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "9CB1",
+      "OS": "WIN_8_1",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "6.3.9600.17393",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "8D31",
+      "OS": "WIN_10",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "10.0.14393.0",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "ASMedia",
+      "PID": "1142",
+      "OS": "WIN_10",
+      "DriverProvider": "ASMedia",
+      "MinDriver": "1.16.33.1",
+      "Comment": "Falcon Northwest Talon (X99)"
+    },
+    {
+      "Vendor": "ASMedia",
+      "PID": "1242",
+      "OS": "WIN_10",
+      "DriverProvider": "ASMedia",
+      "MinDriver": "1.16.33.1",
+      "Comment": "Data from T12918904"
+    },
+    {
+      "Vendor": "Fresco Logic",
+      "PID": "1100",
+      "OS": "WIN_10",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "10.0.14393.0",
+      "Comment": "Plug-in card"
+    },
+    {
+      "Vendor": "Fresco Logic",
+      "PID": "1100",
+      "OS": "WIN_10",
+      "DriverProvider": "Fresco Logic",
+      "MinDriver": "3.6.8.0",
+      "Comment": "Plug-in card"
+    },
+    {
+      "Vendor": "AMD",
+      "PID": "7812",
+      "OS": "WIN_10",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "10.0.14393.0",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "1E31",
+      "OS": "WIN_10",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "10.0.14393.0",
+      "Comment": "From GRL Testing"
+    },
+    {
+      "Vendor": "Intel",
+      "PID": "9CB1",
+      "OS": "WIN_10",
+      "DriverProvider": "Microsoft",
+      "MinDriver": "10.0.14393.0",
+      "Comment": "From GRL Testing"
+    }
+  ],
+  "UsbBlackList": [
+    {
+      "Vendor": "VIA Labs",
+      "PID": "Any",
+      "OS": "Any"
+    },
+    {
+      "Vendor": "ETron",
+      "PID": "Any",
+      "OS": "Any"
+    },
+    {
+      "Vendor": "NEC",
+      "PID": "0194",
+      "OS": "WIN_7_SP1",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "Renesas",
+      "PID": "0194",
+      "OS": "WIN_7_SP1",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "NEC",
+      "PID": "0194",
+      "OS": "WIN_8_0",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "Renesas",
+      "PID": "0194",
+      "OS": "WIN_8_0",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "NEC",
+      "PID": "0194",
+      "OS": "WIN_8_1",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "Renesas",
+      "PID": "0194",
+      "OS": "WIN_8_1",
+      "Comment": "t15565352"
+    },
+    {
+      "Vendor": "ASMedia",
+      "PID": "1042",
+      "OS": "Any"
+    },
+    {
+      "Vendor": "Texas Instruments",
+      "PID": "8241",
+      "OS": "Any"
+    },
+    {
+      "Vendor": "AMD",
+      "PID": "7814",
+      "OS": "Any"
+    }
+  ],
+  "VideoCardVidMap": [
+    {
+      "Vendor": "AMD",
+      "VID": "1002"
+    },
+    {
+      "Vendor": "NVIDIA",
+      "VID": "10DE"
+    }
+  ],
+  "VideoCardWhiteList": [
+    {
+      "Name": "NVIDIA GeForce GTX TITAN Z",
+      "Vendor": "NVIDIA",
+      "PID": "1001",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX TITAN",
+      "Vendor": "NVIDIA",
+      "PID": "1005",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 780 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1008",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 780 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "100A",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX TITAN Black",
+      "Vendor": "NVIDIA",
+      "PID": "100C",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 980",
+      "Vendor": "NVIDIA",
+      "PID": "13C0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 970",
+      "Vendor": "NVIDIA",
+      "PID": "13C2",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX TITAN X",
+      "Vendor": "NVIDIA",
+      "PID": "17C2",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 980 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "17C8",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro K6000",
+      "Vendor": "NVIDIA",
+      "PID": "103A",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro M6000 (12GB)",
+      "Vendor": "NVIDIA",
+      "PID": "17F0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro M6000 (24GB)",
+      "Vendor": "NVIDIA",
+      "PID": "17F1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 980 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "161A",
+      "SubsysVID": "Any",
+      "Comment": "Desktop version in laptops"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 980 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "13DA",
+      "SubsysVID": "Any",
+      "Comment": "Desktop version in laptops"
+    },
+    {
+      "Name": "NVIDIA Quadro M5000",
+      "Vendor": "NVIDIA",
+      "PID": "13F0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro M5500",
+      "Vendor": "NVIDIA",
+      "PID": "13FB",
+      "SubsysVID": "Any",
+      "Comment": "Laptop Quadro variant of GTX 980"
+    },
+    {
+      "Name": "NVidia Quadro P6000",
+      "Vendor": "NVIDIA",
+      "PID": "1B30",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P5000",
+      "Vendor": "NVIDIA",
+      "PID": "1BB0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P4000",
+      "Vendor": "NVIDIA",
+      "PID": "1BB1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P5000",
+      "Vendor": "NVIDIA",
+      "PID": "1BB6",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P5200",
+      "Vendor": "NVIDIA",
+      "PID": "1BB5",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P4000",
+      "Vendor": "NVIDIA",
+      "PID": "1BB7",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro P4200",
+      "Vendor": "NVIDIA",
+      "PID": "1BB9",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro N18E-Q3",
+      "Vendor": "NVIDIA",
+      "PID": "1BB9",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro N18E-Q1",
+      "Vendor": "NVIDIA",
+      "PID": "1BBB",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVidia Quadro GP100",
+      "Vendor": "NVIDIA",
+      "PID": "15F0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA TITAN X (Pascal)",
+      "Vendor": "NVIDIA",
+      "PID": "1B00",
+      "SubsysVID": "Any",
+      "Comment": "Pascal generation Titan X"
+    },
+    {
+      "Name": "NVIDIA TITAN Xp",
+      "Vendor": "NVIDIA",
+      "PID": "1B02",
+      "SubsysVID": "Any",
+      "Comment": "Pascal generation Titan X"
+    },
+    {
+      "Name": "NVIDIA TITAN V",
+      "Vendor": "NVIDIA",
+      "PID": "1D81",
+      "SubsysVID": "Any",
+      "Comment": "Titan Volta"
+    },
+    {
+      "Name": "NVIDIA Quadro GV100",
+      "Vendor": "NVIDIA",
+      "PID": "1DBA",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1080 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1B06",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1080",
+      "Vendor": "NVIDIA",
+      "PID": "1B80",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1080",
+      "Vendor": "NVIDIA",
+      "PID": "1BC0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1080 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1BA0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1080 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1BE0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1070 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1B82",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1070",
+      "Vendor": "NVIDIA",
+      "PID": "1B81",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1070",
+      "Vendor": "NVIDIA",
+      "PID": "1BC1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1070 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1BA1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1070 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1BE1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1C03",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 6GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1C06",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 6GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1C43",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 6GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1B83",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 6GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1B84",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 3GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1C02",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 3GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060",
+      "Vendor": "NVIDIA",
+      "PID": "1C42",
+      "SubsysVID": "Any",
+      "Comment": "Desktop 3GB",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1C20",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1C60",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3090",
+      "Vendor": "NVIDIA",
+      "PID": "2203",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3090",
+      "Vendor": "NVIDIA",
+      "PID": "2204",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080",
+      "Vendor": "NVIDIA",
+      "PID": "2206",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080",
+      "Vendor": "NVIDIA",
+      "PID": "2216",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080",
+      "Vendor": "NVIDIA",
+      "PID": "220A",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080 (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "249C",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080 (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "24DC",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3080 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "2208",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070",
+      "Vendor": "NVIDIA",
+      "PID": "2484",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070",
+      "Vendor": "NVIDIA",
+      "PID": "2488",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070 (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "24A0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070 (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "24dd",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "2482",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3070 Laptop",
+      "Vendor": "NVIDIA",
+      "PID": "249d",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060",
+      "Vendor": "NVIDIA",
+      "PID": "2486",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060",
+      "Vendor": "NVIDIA",
+      "PID": "2487",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "2489",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060",
+      "Vendor": "NVIDIA",
+      "PID": "2504",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "2503",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060",
+      "Vendor": "NVIDIA",
+      "PID": "2507",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "2520",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "2560",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "25A0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "25A2",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "25A5",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "25E0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "25E2",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4090",
+      "Vendor": "NVIDIA",
+      "PID": "2684",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4080",
+      "Vendor": "NVIDIA",
+      "PID": "2704",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4070 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "2782",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA RTX A5000 (Laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "24b6",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA RTX A6000",
+      "Vendor": "NVIDIA",
+      "PID": "2230",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA A40",
+      "Vendor": "NVIDIA",
+      "PID": "2235",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1E07",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1E04",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080",
+      "Vendor": "NVIDIA",
+      "PID": "1E87",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080",
+      "Vendor": "NVIDIA",
+      "PID": "1E82",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1E90",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2080 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1ED0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2070",
+      "Vendor": "NVIDIA",
+      "PID": "1F07",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2070",
+      "Vendor": "NVIDIA",
+      "PID": "1F02",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2070 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1F10",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2070 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1F50",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2060",
+      "Vendor": "NVIDIA",
+      "PID": "1F08",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1F11",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 2060 (laptop)",
+      "Vendor": "NVIDIA",
+      "PID": "1F51",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1660 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "2182",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1660",
+      "Vendor": "NVIDIA",
+      "PID": "2184",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1660 Ti (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "2191",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1660 Ti (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "21D1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1660 SUPER (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "21C4",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1650 Super",
+      "Vendor": "NVIDIA",
+      "PID": "2187",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "GeForce GTX 1650 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1F95",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "GeForce GTX 1650 Ti (Secondary)",
+      "Vendor": "NVIDIA",
+      "PID": "1FD5",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "GeForce GTX 1650",
+      "Vendor": "NVIDIA",
+      "PID": "1F99",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "GeForce GTX 1650 (Secondary)",
+      "Vendor": "NVIDIA",
+      "PID": "1FD9",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA Titan RTX",
+      "Vendor": "NVIDIA",
+      "PID": "1E02",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro T2000",
+      "Vendor": "NVIDIA",
+      "PID": "1FB8",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 6000 (TU102  notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "1E36",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 6000 / 8000",
+      "Vendor": "NVIDIA",
+      "PID": "1E30",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 5000",
+      "Vendor": "NVIDIA",
+      "PID": "1EB0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 5000",
+      "Vendor": "NVIDIA",
+      "PID": "1EB5",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 4000",
+      "Vendor": "NVIDIA",
+      "PID": "1EB1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 4000",
+      "Vendor": "NVIDIA",
+      "PID": "1EB6",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Quadro RTX 3000",
+      "Vendor": "NVIDIA",
+      "PID": "1F36",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "NVIDIA Tesla T4",
+      "Vendor": "NVIDIA",
+      "PID": "1EB8",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "GP104-726",
+      "Vendor": "NVIDIA",
+      "PID": "1BA2",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "GP106-751",
+      "Vendor": "NVIDIA",
+      "PID": "1C23",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2080 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1E81",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2080 Super (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "1E93",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2080 Super (notebook, GSYNC)",
+      "Vendor": "NVIDIA",
+      "PID": "1ED3",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070",
+      "Vendor": "NVIDIA",
+      "PID": "1F14",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 (GSYNC)",
+      "Vendor": "NVIDIA",
+      "PID": "1F54",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1E84",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1EC7",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1EC2",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060",
+      "Vendor": "NVIDIA",
+      "PID": "1F15",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060",
+      "Vendor": "NVIDIA",
+      "PID": "1F12",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 (GSYNC)",
+      "Vendor": "NVIDIA",
+      "PID": "1F55",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 (GSYNC)",
+      "Vendor": "NVIDIA",
+      "PID": "1F52",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 Super (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "1E91",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2070 Super (notebook, GSYNC)",
+      "Vendor": "NVIDIA",
+      "PID": "1ED1",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1F06",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1F47",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 Super",
+      "Vendor": "NVIDIA",
+      "PID": "1F42",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "RTX 2060 KO",
+      "Vendor": "NVIDIA",
+      "PID": "1E89",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD Radeon R9 390 / R9 290",
+      "Vendor": "AMD",
+      "PID": "67B1",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "AMD Radeon R9 390 X / R9 290X",
+      "Vendor": "AMD",
+      "PID": "67B0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD Radeon R9 295X2",
+      "Vendor": "AMD",
+      "PID": "67B9",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD FirePro W9100",
+      "Vendor": "AMD",
+      "PID": "67A0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD FirePro WX7100",
+      "Vendor": "AMD",
+      "PID": "67C4",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD FirePro WX7100 Mobile",
+      "Vendor": "AMD",
+      "PID": "67C0",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD Radeon R9 Fury",
+      "Vendor": "AMD",
+      "PID": "7300",
+      "SubsysVID": "Any"
+    },
+    {
+      "Name": "AMD RX 480",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00c7",
+      "Comment": "a.k.a. Polaris 10 XT. The XT is identified by the 0xc7 revision id. Other Polaris 10 cards (e.g. RX 470) use different revision ids.",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 570 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C2",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 570 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C6",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 570 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00EF",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 580 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C1",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 580 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C3",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 580 Mobile",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C4",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 580 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00E7",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 590 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00F0",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX 590 ",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00FF",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "Radeon RX Vega ",
+      "Vendor": "AMD",
+      "PID": "687F",
+      "SubsysVID": "00C0",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX Vega ",
+      "Vendor": "AMD",
+      "PID": "687F",
+      "SubsysVID": "00C1",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX Vega ",
+      "Vendor": "AMD",
+      "PID": "687F",
+      "SubsysVID": "00C3",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX Vega ",
+      "Vendor": "AMD",
+      "PID": "687F",
+      "SubsysVID": "0001",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX Vega 20",
+      "Vendor": "AMD",
+      "PID": "66AF",
+      "SubsysVID": "00C1",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX Vega Frontier ",
+      "Vendor": "AMD",
+      "PID": "6863",
+      "SubsysVID": "0000",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon Pro Vega 56 ",
+      "Vendor": "AMD",
+      "PID": "6867",
+      "SubsysVID": "0000",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon Pro SSG ",
+      "Vendor": "AMD",
+      "PID": "6862",
+      "SubsysVID": "0000",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon Pro WX 9100 ",
+      "Vendor": "AMD",
+      "PID": "6861",
+      "SubsysVID": "0000",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX 5500",
+      "Vendor": "AMD",
+      "PID": "7340",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX 5700",
+      "Vendor": "AMD",
+      "PID": "731F",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX 6600",
+      "Vendor": "AMD",
+      "PID": "73FF",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX 6700",
+      "Vendor": "AMD",
+      "PID": "73DF",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    },
+    {
+      "Name": "Radeon RX 6800",
+      "Vendor": "AMD",
+      "PID": "73BF",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    },
+	{
+      "Name": "ARC A770",
+      "Vendor": "INTEL",
+      "PID": "56A0",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095
+    }
+  ],
+  "CpuWhiteList": [
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 590,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 590,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 670,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 670,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 690,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 690,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 690,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 575,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 675,
+      "Flags": "C"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 675,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 400,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 400,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 402,
+      "Flags": "P"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 440,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 440,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 442,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 500,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 500,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 500,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 600,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 600,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 600,
+      "Flags": "T"
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7400 "
+    },
+    {
+      "CoreType": 5,
+      "Generation": 7,
+      "PerfTag": 500,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 771,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 790,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 790,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 790,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 790,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 810,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 820,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 900,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 910,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 930,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 930,
+      "Flags": "MX"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 940,
+      "Flags": "MX"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 960,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 980,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 700,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 700,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 750,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 775,
+      "Flags": "C"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 775,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 820,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 850,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 850,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 930,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 950,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 960,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 700,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 700,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 700,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 700,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 700,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 800,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 820,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 820,
+      "Flags": "HK"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 820,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 822,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 920,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 7,
+      "PerfTag": 300,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 7,
+      "PerfTag": 700,
+      "Flags": "HQ"
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7700 "
+    },
+    {
+      "CoreType": 7,
+      "Generation": 7,
+      "PerfTag": 820,
+      "Flags": "HK"
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-9400 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-9700K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i9-"
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8809G "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8300H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8400H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8750H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8850H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8400B "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8500B "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8700B "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8709G "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8086K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8700K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8700 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8600K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8400 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-8350K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-8100 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7700K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7600K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6850K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7700 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7600 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7400 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7920HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7820X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7820HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7820HK "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7800X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7740X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7640X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7700HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) Bronze "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) Silver "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) Gold "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) Platinum "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) W-"
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) E-2176M "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) E-2186M "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) E-2176G "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) E-2174G "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275 v6 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1280 v6 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1270 v6 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1285 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1281 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1535M v6 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1276 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1285L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1285L v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1271 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1246 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1241 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1280 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1280 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1240 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1270 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1680 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1240 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1575M v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1680 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1650 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1231 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1245 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1630 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1290 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1245 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2637 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1286 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1270 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1505M v6 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1260L v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1630 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1280 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1650 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1620 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1226 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1680 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1660 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1230 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1545M v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2689 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1230 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1660 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2643 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1265L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1270 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1515M v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2667 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2687W v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1240 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2667 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1225 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1681 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1620 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2673 v2 "
+    },
+    {
+      "NameSubStr": "AMD Ryzen 9 "
+    },
+    {
+      "NameSubStr": "AMD Ryzen 7 "
+    },
+    {
+      "NameSubStr": "AMD Ryzen Threadripper "
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3600X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 3600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3500"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3550H"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3400G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 3400G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 2600X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 2600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 2600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 2500X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 2400G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 2400G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 1600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 1600X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 1600"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 1500X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 1500"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 PRO 1400"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 5600X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 4600G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 3600XT"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 5 4600H"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 3 4300G"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 3 3300X"
+    },
+    {
+      "NameSubStr": "AMD Ryzen 3 3100"
+    }
+  ],
+  "CpuBlackList": [
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 330,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 330,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 330,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 350,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 370,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 380,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 380,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 390,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 530,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 540,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 550,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 1,
+      "PerfTag": 560,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 100,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 100,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 105,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 115,
+      "Flags": "C"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 120,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 310,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 310,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 312,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 328,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 330,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 330,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 340,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 348,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 350,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 357,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 365,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 367,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 370,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 375,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 377,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 110,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 115,
+      "Flags": "C"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 120,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 120,
+      "Flags": "ME"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 130,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 217,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 217,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 220,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 227,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 229,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 240,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 0,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 100,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 100,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 100,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 102,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 10,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 10,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 110,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 110,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 112,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 120,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 12,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 158,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 20,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 25,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 30,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 30,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 330,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 340,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 5,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 5,
+      "PerfTag": 10,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 5,
+      "PerfTag": 157,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 5,
+      "PerfTag": 15,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 5,
+      "PerfTag": 20,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 5,
+      "PerfTag": 5,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": "H"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 102,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 167,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 430,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 430,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 450,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 460,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 470,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 480,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 520,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 520,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 520,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 540,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 540,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 560,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 560,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 580,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 650,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 655,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 660,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 661,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 670,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 680,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 750,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 750,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 1,
+      "PerfTag": 760,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 300,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 410,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 430,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 435,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 450,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 467,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 500,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 510,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 515,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 520,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 537,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 540,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 557,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 210,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 230,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 317,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 337,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 339,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 427,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 437,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 439,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 200,
+      "Flags": "H"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 200,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 200,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 200,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 202,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 210,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 210,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 220,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 250,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 260,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 300,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 300,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 302,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 310,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 350,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 360,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 400,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 402,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 402,
+      "Flags": "EC"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 410,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 422,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 460,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 200,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 250,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 300,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 350,
+      "Flags": "H"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 350,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 200,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 260,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 287,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 610,
+      "Flags": "E"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 620,
+      "Flags": "LE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 620,
+      "Flags": "LM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 620,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 620,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 620,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 640,
+      "Flags": "LM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 640,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 640,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 660,
+      "Flags": "LM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 660,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 660,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 680,
+      "Flags": "UM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 720,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 740,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 820,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 840,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 860,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 860,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 870,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 870,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 875,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 880,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 920,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 920,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 930,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 940,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 940,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 950,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 960,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 965,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 970,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 975,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 980,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 980,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 1,
+      "PerfTag": 990,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 610,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 617,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 620,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 629,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 630,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 635,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 637,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 640,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 649,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 655,
+      "Flags": "LE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 657,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 670,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 675,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 677,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 710,
+      "Flags": "QE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 715,
+      "Flags": "QE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 720,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 760,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 820,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 517,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 517,
+      "Flags": "UE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 537,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 610,
+      "Flags": "QE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 612,
+      "Flags": "QE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 612,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 632,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 635,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 667,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 689,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 500,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 550,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 610,
+      "Flags": "Y"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 500,
+      "Flags": "U"
+    }
+  ],
+  "CpuMinSpecList": [
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 102,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 120,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 125,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 2,
+      "PerfTag": 130,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 210,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 220,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 225,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 240,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 245,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 3,
+      "PerfTag": 250,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 130,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 130,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 150,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 150,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 160,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 160,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 170,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 170,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 330,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 330,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 340,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 350,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 350,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 360,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 360,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 370,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 4,
+      "PerfTag": 370,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 100,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 300,
+      "Flags": ""
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 300,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 3,
+      "Generation": 6,
+      "PerfTag": 320,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 310,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 320,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 380,
+      "Flags": "P"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 390,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 400,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 400,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 405,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 450,
+      "Flags": "P"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 500,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 500,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 500,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 2,
+      "PerfTag": 550,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 320,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 330,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 330,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 340,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 340,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 340,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 350,
+      "Flags": "P"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 360,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 380,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 450,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 450,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 470,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 470,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 470,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 475,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 550,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 550,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 570,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 570,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 610,
+      "Flags": "ME"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 210,
+      "Flags": "H"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 210,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 258,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 278,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 288,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 300,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 308,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 310,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 330,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 340,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 430,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 430,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 440,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 440,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 460,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 460,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 590,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 670,
+      "Flags": "R"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 670,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 670,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 690,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 257,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 5,
+      "PerfTag": 287,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 267,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 300,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 300,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 6,
+      "PerfTag": 360,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 600,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 600,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 600,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 700,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 860,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 920,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 960,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 520,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 540,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 555,
+      "Flags": "LE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 610,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 615,
+      "Flags": "QE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 615,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 630,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 687,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 720,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 740,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 770,
+      "Flags": "S"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 770,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 820,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 820,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 840,
+      "Flags": "QM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 920,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 930,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 940,
+      "Flags": "XM"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 960,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 970,
+      "Flags": "X"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 510,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 558,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 578,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 600,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 600,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 610,
+      "Flags": "M"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 650,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 700,
+      "Flags": "EC"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 700,
+      "Flags": "EQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 700,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 700,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 702,
+      "Flags": "EC"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 702,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 702,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 710,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 710,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 712,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 712,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 720,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 722,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 750,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 760,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 765,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 770,
+      "Flags": "TE"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 785,
+      "Flags": "T"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 800,
+      "Flags": "MQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 850,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 860,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 870,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 950,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 4,
+      "PerfTag": 960,
+      "Flags": "HQ"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 550,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 557,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 600,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 5,
+      "PerfTag": 650,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 500,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 560,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 567,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 600,
+      "Flags": "U"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 6,
+      "PerfTag": 650,
+      "Flags": "U"
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8706G "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-8705G "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-8305G "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7700T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7440HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4350 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4340 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3770K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4160 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4770T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6402P "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3770 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4570 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4870HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4330 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3570K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4150 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3770S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3570 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3940XM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3920XM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2700K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6567U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4570T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3970X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4570S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4690T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4800MQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3960X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4610M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3550S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4860HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3570S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7300U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7260U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4850HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3550 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4130 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2550K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4722HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4578U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4460 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4460S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2600K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-7500U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3820 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3770T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3930K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4600M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4570T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-7100T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6600T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3840QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2600 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4720HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4670S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3470 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6770HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4860EQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4770HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4340M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2500K "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-5557U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4710MQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4360T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6440HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-6300T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3475S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4670T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4210H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4440 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2500 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-5575R "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3740QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4570R "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3470S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3470T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3820QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-5287U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3250 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4310M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3450 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4440S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3540M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4330M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4710HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4200H "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4700EQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4430 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7500T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-6100T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6600U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3245 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3720QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2500S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4170T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6650U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3240 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4350T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4700MQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4560U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3450S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4288U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2600S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4700HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3380M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4160T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4300M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6360U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3520M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4430S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4785T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6267U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3225 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2450P "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4330T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3360M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3220 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4150T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-2130 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4712HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3340 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4750HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3350P "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4760HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7200U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2400 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2390T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4650U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4712MQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4210M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4702HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6560U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3615QE "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4308U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3570T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4278U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3340S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7Y57 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3210 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-2125 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6500T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-5257U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4702MQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3330 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4600U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3340M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2320 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4765T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-2120 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4590T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4558U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-7400T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3630QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-5550U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6300HQ "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-4130T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3687U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2960XM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3335S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2920XM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6498DU "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-5600U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-5650U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2840QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2860QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-2102 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-995X "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3330S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2380P "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4200M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4510U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3555LE "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3615QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-6300U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-4258U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-6500U "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3320M "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-3610QM "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-3610ME "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-3250T "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2310 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-4770TE "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2405S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i5-2400S "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i7-2640M "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2643 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1245 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1225 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1290 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2697 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1535M v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1220 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1660 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1650 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1280 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2690 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2618L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2640 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1268L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1230 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2637 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2687W v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1620 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1275 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1620 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2695 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2687W v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1650 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1270 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2690 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1505M v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1225 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1220 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2696 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1245 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2699 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-4627 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2680 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2687W "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2690 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU X5698 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU i5-3450 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2623 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1240 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2643 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2689 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1235 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2679 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1230 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2660 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2698 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2660 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2690 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2637 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2663 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1220 V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2643 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-4627 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2673 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1607 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2680 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1660 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2699 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2680 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2685 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2630 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1225 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1240L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1265L V2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1607 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1585 v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1220L "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2676 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2640 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2696 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1220 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2697 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU i5-6500T "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1410 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2658 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2650 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2670 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2620 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2673 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2697 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2696 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2667 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2623 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2680 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2650 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1410 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2630 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2683 v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2630L v3 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1260L "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E3-1505L v5 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1603 v4 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-1607 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Xeon(R) CPU E5-2692 v2 "
+    },
+    {
+      "NameSubStr": "Intel(R) Core(TM) i3-7100 "
+    },
+    {
+      "Comment": "path Win32_Processor get Name: AMD FX(tm)-4350 Quad-Core Processor",
+      "NameSubStr": "AMD FX(tm)-4350 Quad-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-6350 Six-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8350 Eight-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-9590 Eight-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-9370 Eight-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX-8370 Eight-Core Processor"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8370"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8370E"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8320"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8320E"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8310"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8300"
+    },
+    {
+      "NameSubStr": "AMD FX(tm)-8120"
+    },
+    {
+      "NameSubStr": "AMD Athlon 320GE"
+    },
+    {
+      "NameSubStr": "AMD Athlon 300GE"
+    },
+    {
+      "NameSubStr": "AMD Athlon 240GE"
+    },
+    {
+      "NameSubStr": "AMD Athlon 220GE"
+    },
+    {
+      "NameSubStr": "AMD Athlon 200GE"
+    },
+    {
+      "NameSubStr": "AMD Athlon Gold 3150G"
+    },
+    {
+      "NameSubStr": "AMD Athlon Silver 3050GE"
+    },
+    {
+      "NameSubStr": "AMD Ryzen "
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 770,
+      "Flags": ""
+    },
+    {
+      "CoreType": 7,
+      "Generation": 3,
+      "PerfTag": 770,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 7,
+      "Generation": 2,
+      "PerfTag": 600,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 570,
+      "Flags": ""
+    },
+    {
+      "CoreType": 5,
+      "Generation": 3,
+      "PerfTag": 570,
+      "Flags": "K"
+    },
+    {
+      "CoreType": 5,
+      "Generation": 4,
+      "PerfTag": 570,
+      "Flags": ""
+    }
+  ],
+  "VideoCardMinSpecList": [
+    {
+      "Name": "NVIDIA GTX 960",
+      "Vendor": "NVIDIA",
+      "PID": "1401",
+      "SubsysVID": "Any",
+      "Comment": "Same id for both 2GB and 4GB version, but we only accept the 4GB version.",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1050",
+      "Vendor": "NVIDIA",
+      "PID": "1C8D",
+      "SubsysVID": "Any",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GTX 1050Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1C82",
+      "SubsysVID": "Any",
+      "Comment": "Desktop",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA Geforce GTX 1050 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1C8C",
+      "SubsysVID": "Any",
+      "Comment": "Mobile",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA Geforce GTX 1050 Ti",
+      "Vendor": "NVIDIA",
+      "PID": "1CCC",
+      "SubsysVID": "Any",
+      "Comment": "Mobile",
+      "MinVRamMb": 4095,
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1650 (notebook)",
+      "Vendor": "NVIDIA",
+      "PID": "1F91",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "AMD RX 470",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00CF",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "AMD RX 470",
+      "Vendor": "AMD",
+      "PID": "67DF",
+      "SubsysVID": "00C5",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "AMD RX Vega M GH",
+      "Vendor": "AMD",
+      "PID": "694C",
+      "SubsysVID": "00C0",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "AMD RX Vega M GL",
+      "Vendor": "AMD",
+      "PID": "694E",
+      "SubsysVID": "00C0",
+      "Capability": [
+        1
+      ]
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 980M",
+      "Vendor": "NVIDIA",
+      "PID": "13D7",
+      "SubsysVID": "Any",
+      "Capability": [
+        1
+      ]
+    }
+  ],
+  "UsbMinSpecList": [
+    
+  ],
+  "OsWhiteList": [
+    {
+      "OsVersion": "WIN_10"
+    }
+  ],
+  "OsBlackList": [
+    {
+      "OsVersion": "WIN_8_1"
+    },
+    {
+      "OsVersion": "WIN_8_0"
+    },
+    {
+      "OsVersion": "WIN_7_SP1"
+    },
+    {
+      "OsVersion": "WIN_7_SP0"
+    },
+    {
+      "OsVersion": "WIN_VISTA"
+    },
+    {
+      "OsVersion": "WIN_XP"
+    }
+  ]
+}
